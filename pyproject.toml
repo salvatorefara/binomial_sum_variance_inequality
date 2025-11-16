@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "binomial-sum-variance-inequality"
+version = "0.1.0"
+description = "Simulations to explore and understand the Binomial sum variance inequality."
+authors = ["Salvatore Fara <sf.salvatorefara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+numpy = "^2.3.4"
+matplotlib = "^3.10.7"
+ipython = "^9.7.0"
+ipykernel = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
